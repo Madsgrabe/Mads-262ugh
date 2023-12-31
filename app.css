@@ -1,0 +1,39 @@
+body {
+    /* backround color black */
+    background-color: black#0f0f0f;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    background: linear-gradient(
+      to left,
+      violet,
+      red,
+      orange,
+      blue,
+      green,
+      yellow,
+      purple,
+      pink,
+      brown
+    );
+    /* Front size and color*/
+    font-size: 50px #fff;
+    -webkit-text-stroke: 1px;
+    width: fit-content;
+    margin: 50px auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: anim 2s linear infinite;
+  }
+  
+  @keyframes anim {
+    to {
+      background-position-x: 320px;
+    }
+  }
+  /* high po sainyo */
+
+
+    
